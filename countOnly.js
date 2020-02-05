@@ -42,7 +42,7 @@ assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], 2);
 
 const result2 = countOnly(["apple","orange","egg","chicken","pineapple","orange","pommegranite","apple","fish","orange"],
-  {egg: false, "orange": true, chicken: false, "fish": false, "meat": false, pommegranite:true,apple: true});
+  {egg: false, orange: true, chicken: false, "fish": false, meat: false, pommegranite:true,apple: true});
 
 assertEqual(result2["chicken"],undefined);
 assertEqual(result2["fish"],undefined);
