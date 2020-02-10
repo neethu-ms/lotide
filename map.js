@@ -27,6 +27,8 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
+
 const results1 = map(words, word => word[0]);  // using arrow function
 const results2 = map(words, function(word) {    // using anonymous function
   return word.length;

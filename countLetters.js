@@ -21,6 +21,8 @@ const countLetters = function(sentence) {
   return letterCount;
 };
 
+module.exports = countLetters;
+
 assertEqual(countLetters("abcd abcd aad")["a"],4);
 assertEqual(countLetters("abcd abcd aad")["b"],2);
 assertEqual(countLetters("abcd abcd aad")["d"],3);

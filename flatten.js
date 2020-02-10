@@ -20,20 +20,23 @@ const assertArraysEqual = function(actual,expected) {
 };
 
 
+
 const flatten = function(array) {
   let newArray = [];
-  for(let i of array){
-     if (Array.isArray(i)) {
-       for(let j of i){
-         newArray.push(j);
-       }
-     } else {
-       newArray.push(i);
-     }
+  for (let i of array) {
+    if (Array.isArray(i)) {
+      for (let j of i) {
+        newArray.push(j);
+      }
+    } else {
+      newArray.push(i);
+    }
   }
 
   return newArray;
-}
+};
+
+module.exports = flatten;
 
 assertArraysEqual(flatten([1,2,[3,4],5,[6,7,8,9],10]),[1,2,3,4,5,6,7,8,9,10]);
 assertArraysEqual(flatten([[1,2,3]]),[1,2,3]);
