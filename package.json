@@ -4,7 +4,7 @@
   "description": "",
   "main": "assertArraysEqual.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/neethu-ms/lotide/issues"
   },
-  "homepage": "https://github.com/neethu-ms/lotide#readme"
+  "homepage": "https://github.com/neethu-ms/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
 }
