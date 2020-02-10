@@ -32,3 +32,4 @@ assertEqual(countLetters("hello hai")["e"],1);
 assertEqual(countLetters("hello hai")["l"],2);
 assertEqual(countLetters("hello hai")["a"],1);
 assertEqual(countLetters("hello hai")["i"],1);
+

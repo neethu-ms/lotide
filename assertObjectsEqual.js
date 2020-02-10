@@ -39,3 +39,4 @@ const assertObjectsEqual = function(actual, expected) {
 assertObjectsEqual(eqObjects({a: 1, b: 2}, {b: 2, a: 1}),true);
 assertObjectsEqual(eqObjects({a: 1, b: 2}, {b: 2, a: 4}),false);
 assertObjectsEqual(eqObjects({a: 1, b: 2}, {b: 2, a: "1"}),false);
+assertObjectsEqual({a: 1, b: 2}, {b: 2, a: 1});

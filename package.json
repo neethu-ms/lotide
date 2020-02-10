@@ -1,7 +1,7 @@
 {
-  "name": "yes",
+  "name": "@neethums/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Library to simplify array operations",
   "main": "assertArraysEqual.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/neethu-ms/lotide.git"
   },
-  "author": "",
+  "author": "Neethu M S",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/neethu-ms/lotide/issues"
