@@ -2,7 +2,7 @@
   "name": "@neethums/lotide",
   "version": "1.0.0",
   "description": "A Library to simplify array operations",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -20,4 +20,5 @@
     "chai": "^4.2.0",
     "mocha": "^7.0.1"
   }
+ 
 }
